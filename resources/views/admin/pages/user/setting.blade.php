@@ -23,7 +23,7 @@
 	<div class="col-md-6">
 		<form method="post" action="{{ route('admin.user.setting') }}">
 			<div class="card mb-3">
-				<div class="card-header"><h5>Setting</h5></div>
+				<div class="card-header"><h5>Setting</h5></div>  
 				<div class="card-body">
 					{{ csrf_field() }}
 
