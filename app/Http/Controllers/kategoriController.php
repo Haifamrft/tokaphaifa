@@ -12,5 +12,6 @@ class kategoriController extends Controller
     	$data = Kategori::where('nama_kategori','like',"%{$req->keywoard}%")
     			->paginate(10);
     	return view('admin.pages.kategori.daftar',['data'=>$data]);
+    	
     }
 }
